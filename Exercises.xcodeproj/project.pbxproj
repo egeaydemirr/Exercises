@@ -11,6 +11,7 @@
 		93FDB9BF299CC51100951611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FDB9BE299CC51100951611 /* ContentView.swift */; };
 		93FDB9C1299CC51200951611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FDB9C0299CC51200951611 /* Assets.xcassets */; };
 		93FDB9C4299CC51200951611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FDB9C3299CC51200951611 /* Preview Assets.xcassets */; };
+		93FDB9CB299CC5D100951611 /* HelloFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FDB9CA299CC5D100951611 /* HelloFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		93FDB9BE299CC51100951611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93FDB9C0299CC51200951611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93FDB9C3299CC51200951611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93FDB9CA299CC5D100951611 /* HelloFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				93FDB9BC299CC51100951611 /* ExercisesApp.swift */,
 				93FDB9BE299CC51100951611 /* ContentView.swift */,
+				93FDB9CA299CC5D100951611 /* HelloFunction.swift */,
 				93FDB9C0299CC51200951611 /* Assets.xcassets */,
 				93FDB9C2299CC51200951611 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FDB9CB299CC5D100951611 /* HelloFunction.swift in Sources */,
 				93FDB9BF299CC51100951611 /* ContentView.swift in Sources */,
 				93FDB9BD299CC51100951611 /* ExercisesApp.swift in Sources */,
 			);

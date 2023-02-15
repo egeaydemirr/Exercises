@@ -8,14 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+ @ObservedObject var helloWorldObject = helloWorld()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Text(helloWorldObject.helloWorld())
     }
 }
 
